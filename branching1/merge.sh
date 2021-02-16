@@ -1,21 +1,21 @@
 #!/bin/bash
 #display command line options
 count=1
-for
-param
-in
+while
+[[
+-n
 "
-$@
+$1
 "
+]]
 ;
 do
 echo
 "
-\$
-@ Parameter #
+Parameter #
 $count
 =
-$param
+$1
 "
 count=
 $((
@@ -23,4 +23,5 @@ $count
 +
 1
 ))
+shift
 done
