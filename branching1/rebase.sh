@@ -13,7 +13,7 @@ $@
 do
 echo
 "
-Parameter:
+Next Parameter:
 $param
 "
 count=
